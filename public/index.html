@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartfulness Bhind Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="validation.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="data:image/png;base64,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" alt="Heartfulness Logo" class="responsive-logo">
+            </div>
+            <div class="header">
+                <h1>Heartfulness Bhind Survey Form</h1>
+                <p>Welcome to the Heartfulness Bhind Survey. Please fill out the form below to provide your feedback.</p>
+            </div>
+
+            <div class="media">
+                <video controls class="responsive-video" loop autoplay muted>
+                    <source src="Beauty of Kanha Shanti Vanam .mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <form id="surveyForm" action="/submit" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" class="name" placeholder="Please Enter Your Name Here" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="age" class="age" placeholder="Please Enter Your Age Here" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="email" placeholder="Please Enter Your Email Here">
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" class="phone" placeholder="Please Enter Your Phone Number Here" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="whatsapp" class="whatsapp" placeholder="Please Enter Your WhatsApp Number Here" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="address" class="address" placeholder="Please Enter Your Address Here" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="feedback" placeholder="Please Give your feedback here" class="feedback" required>
+                </div>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p>© 2025 Heartfulness Bhind Survey Form</p>
+            <p>Developed by Dhruv Shrivastava</p>
+            <p>Want your own website 
+                Contact me at dhruvemahi2011@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
